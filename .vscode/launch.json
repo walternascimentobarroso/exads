@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9003,
+            "log": true,
+            "pathMappings": {
+                "/var/www/": "${workspaceFolder}"
+            },
+            "xdebugSettings": {
+                "max_children": 128,
+                "max_data": -1,
+                "show_hidden": 1,
+                "max_depth": 3
+            }
+        }
+    ]
+}
